@@ -1,0 +1,18 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v0.11.0
+_src_path: gl:openscm/copier-core-python-repository
+conda_release: false
+email: zebedee.nicholls@climate-energy-college.org
+include_cli: false
+name: Zebedee Nicholls
+notebook_based_docs: true
+package_manager: uv
+pandas_doctests: false
+plot_dependencies: false
+project_description_short: Mapping from CMIP variable and other information to branded
+    variable names.
+project_name_human: CMIP Branded Variable Mapper
+project_name_pip: cmip-branded-variable-mapper
+project_name_python: cmip_branded_variable_mapper
+project_url: https://github.com/znicholls/CMIP-branded-variables-scratch
+track_lock_file: true
