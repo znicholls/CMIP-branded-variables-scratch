@@ -3,8 +3,8 @@ site_description: Mapping from CMIP variable and other information to branded va
 site_url: https://cmip-branded-variable-mapper.readthedocs.io
 edit_uri: blob/master/docs/
 
-repo_name: znicholls/CMIP-branded-variables-scratch
-repo_url: https://github.com/znicholls/CMIP-branded-variables-scratch
+repo_name: znicholls/CMIP-branded-variables-mapper
+repo_url: https://github.com/znicholls/CMIP-branded-variables-mapper
 
 theme:
   name: "material"

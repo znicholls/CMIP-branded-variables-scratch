@@ -56,14 +56,14 @@ See the pdm-bump docs for the
 The steps required are the following:
 
 1. Bump the version: manually trigger the "bump" workflow from the main branch
-   (see here: [bump workflow](https://github.com/znicholls/CMIP-branded-variables-scratch/actions/workflows/bump.yaml)).
+   (see here: [bump workflow](https://github.com/znicholls/CMIP-branded-variables-mapper/actions/workflows/bump.yaml)).
    A valid "bump_rule" (see [pdm-bump's docs](https://github.com/carstencodes/pdm-bump#usage))
    will need to be specified.
    This will then trigger a draft release.
 
 1. Edit the draft release which has been created
    (see here:
-   [project releases](https://github.com/znicholls/CMIP-branded-variables-scratch/releases)).
+   [project releases](https://github.com/znicholls/CMIP-branded-variables-mapper/releases)).
    Once you are happy with the release
    (removed placeholders, added key announcements etc.)
    then hit 'Publish release'.

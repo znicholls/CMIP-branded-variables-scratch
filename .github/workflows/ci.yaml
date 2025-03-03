@@ -65,7 +65,7 @@ jobs:
         with:
           # Exclude local links
           # and the template link in pyproject.toml
-          args: "--exclude 'file://' --exclude '^https://github\\.com/znicholls/CMIP-branded-variables-scratch/pull/\\{issue\\}$' ."
+          args: "--exclude 'file://' --exclude '^https://github\\.com/znicholls/CMIP-branded-variables-mapper/pull/\\{issue\\}$' ."
 
   tests:
     strategy:
