@@ -33,8 +33,8 @@ classifiers = [
 Homepage = "https://cmip-branded-variable-mapper.readthedocs.io"
 Documentation = "https://cmip-branded-variable-mapper.readthedocs.io"
 Changelog = "https://cmip-branded-variable-mapper.readthedocs.io/en/stable/changelog"
-Repository = "https://github.com/znicholls/CMIP-branded-variables-scratch"
-Issues = "https://github.com/znicholls/CMIP-branded-variables-scratch/issues"
+Repository = "https://github.com/znicholls/CMIP-branded-variables-mapper"
+Issues = "https://github.com/znicholls/CMIP-branded-variables-mapper/issues"
 
 
 [project.optional-dependencies]
@@ -355,7 +355,7 @@ underlines = [
     "",
     "",
 ]
-issue_format = "[#{issue}](https://github.com/znicholls/CMIP-branded-variables-scratch/pull/{issue})"
+issue_format = "[#{issue}](https://github.com/znicholls/CMIP-branded-variables-mapper/pull/{issue})"
 type = [
     { directory = "breaking", name = "⚠️ Breaking Changes", showcontent = true },
     { directory = "deprecation", name = "🗑️ Deprecations", showcontent = true },

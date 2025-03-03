@@ -5,20 +5,20 @@ Mapping from CMIP variable and other information to branded variable names.
 
 **Key info :**
 [![Docs](https://readthedocs.org/projects/cmip-branded-variable-mapper/badge/?version=latest)](https://cmip-branded-variable-mapper.readthedocs.io)
-[![Main branch: supported Python versions](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fznicholls%2FCMIP-branded-variables-scratch%2Fmain%2Fpyproject.toml)](https://github.com/znicholls/CMIP-branded-variables-scratch/blob/main/pyproject.toml)
-[![Licence](https://img.shields.io/pypi/l/cmip-branded-variable-mapper?label=licence)](https://github.com/znicholls/CMIP-branded-variables-scratch/blob/main/LICENCE)
+[![Main branch: supported Python versions](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2Fznicholls%2FCMIP-branded-variables-mapper%2Fmain%2Fpyproject.toml)](https://github.com/znicholls/CMIP-branded-variables-mapper/blob/main/pyproject.toml)
+[![Licence](https://img.shields.io/pypi/l/cmip-branded-variable-mapper?label=licence)](https://github.com/znicholls/CMIP-branded-variables-mapper/blob/main/LICENCE)
 
 **PyPI :**
 [![PyPI](https://img.shields.io/pypi/v/cmip-branded-variable-mapper.svg)](https://pypi.org/project/cmip-branded-variable-mapper/)
-[![PyPI install](https://github.com/znicholls/CMIP-branded-variables-scratch/actions/workflows/install-pypi.yaml/badge.svg?branch=main)](https://github.com/znicholls/CMIP-branded-variables-scratch/actions/workflows/install-pypi.yaml)
+[![PyPI install](https://github.com/znicholls/CMIP-branded-variables-mapper/actions/workflows/install-pypi.yaml/badge.svg?branch=main)](https://github.com/znicholls/CMIP-branded-variables-mapper/actions/workflows/install-pypi.yaml)
 
 **Tests :**
-[![CI](https://github.com/znicholls/CMIP-branded-variables-scratch/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/znicholls/CMIP-branded-variables-scratch/actions/workflows/ci.yaml)
-[![Coverage](https://codecov.io/gh/znicholls/CMIP-branded-variables-scratch/branch/main/graph/badge.svg)](https://codecov.io/gh/znicholls/CMIP-branded-variables-scratch)
+[![CI](https://github.com/znicholls/CMIP-branded-variables-mapper/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/znicholls/CMIP-branded-variables-mapper/actions/workflows/ci.yaml)
+[![Coverage](https://codecov.io/gh/znicholls/CMIP-branded-variables-mapper/branch/main/graph/badge.svg)](https://codecov.io/gh/znicholls/CMIP-branded-variables-mapper)
 
 **Other info :**
-[![Last Commit](https://img.shields.io/github/last-commit/znicholls/CMIP-branded-variables-scratch.svg)](https://github.com/znicholls/CMIP-branded-variables-scratch/commits/main)
-[![Contributors](https://img.shields.io/github/contributors/znicholls/CMIP-branded-variables-scratch.svg)](https://github.com/znicholls/CMIP-branded-variables-scratch/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/znicholls/CMIP-branded-variables-mapper.svg)](https://github.com/znicholls/CMIP-branded-variables-mapper/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/znicholls/CMIP-branded-variables-mapper.svg)](https://github.com/znicholls/CMIP-branded-variables-mapper/graphs/contributors)
 ## Status
 
 <!---
@@ -80,7 +80,7 @@ incompatible versions of CMIP Branded Variable Mapper's dependencies
 particularly ones which haven't been released yet!).
 Hence, you may run into installation issues.
 If you believe these are because of a problem in CMIP Branded Variable Mapper,
-please [raise an issue](https://github.com/znicholls/CMIP-branded-variables-scratch/issues).
+please [raise an issue](https://github.com/znicholls/CMIP-branded-variables-mapper/issues).
 
 The (non-locked) version of CMIP Branded Variable Mapper can be installed with
 
@@ -105,7 +105,7 @@ In order to create your environment, run `make virtual-environment`.
 
 If there are any issues, the messages from the `Makefile` should guide you through.
 If not, please raise an issue in the
-[issue tracker](https://github.com/znicholls/CMIP-branded-variables-scratch/issues).
+[issue tracker](https://github.com/znicholls/CMIP-branded-variables-mapper/issues).
 
 For the rest of our developer docs, please see [development][development].
 

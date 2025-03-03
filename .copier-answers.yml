@@ -14,5 +14,5 @@ project_description_short: Mapping from CMIP variable and other information to b
 project_name_human: CMIP Branded Variable Mapper
 project_name_pip: cmip-branded-variable-mapper
 project_name_python: cmip_branded_variable_mapper
-project_url: https://github.com/znicholls/CMIP-branded-variables-scratch
+project_url: https://github.com/znicholls/CMIP-branded-variables-mapper
 track_lock_file: true
