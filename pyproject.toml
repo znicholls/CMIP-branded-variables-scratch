@@ -229,6 +229,7 @@ tests-full = [
 tests = [
     {include-group = "tests-min"},
     {include-group = "tests-full"},
+    "pandas>=2.2.3",
 ]
 all-dev = [
     {include-group = "dev"},
