@@ -10,12 +10,34 @@ Tests of our generation of branded variable names
 # - If you give an uncreognised name, you get a sensible error
 
 from contextlib import nullcontext as does_not_raise
+from pathlib import Path
 
+import pandas as pd
 import pytest
+
+HERE = Path(__file__).parent
+
+
+def generate_expected_cases():
+    raw = pd.read_csv(HERE / "expected-mappings.csv")
+
+    exp_var_names = ["variable", "cell_methods", "exp"]
+    col_names = ["variable", "cell_methods", "branded_variable"]
+    test_cases = [
+        pytest.param(*[r[ov] for ov in col_names])
+        for r in raw.to_dict(orient="records")
+    ]
+
+    return pytest.mark.parametrize(exp_var_names, test_cases)
+
+
+@generate_expected_cases()
+def test_against_excel_sheet(variable, cell_methods, exp):
+    assert False
 
 
 @pytest.mark.parametrize(
-    ["variable", "cell_methods", "exp", "expectation"],
+    ["variable", "cell_methods", "exp"],
     (
         pytest.param(
             "tas", "time: mean area: mean", "tas-tavg-hx-u-u", id="tas-average"
